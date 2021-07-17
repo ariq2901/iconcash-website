@@ -8,7 +8,7 @@ import KeamananSistem from "Assets/images/keamanan_sistem.png";
 
 const Features = () => {
   return (
-    <section className="pt-24 px-44 font-poppins">
+    <section className="pt-24 px-44 pb-32 font-poppins">
       <h1 className="text-grayText mb-28 text-center text-4xl font-bold">Yang Kamu Dapat dari ICONCASH</h1>
       <div className="w-full h-56 grid grid-cols-5 gap-5">
 

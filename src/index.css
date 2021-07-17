@@ -69,6 +69,22 @@ code {
   background: rgb(105, 105, 105); 
 }
 
+/*^ Global Slider Configuration */
+.slick-slider .slick-list, .slick-slider .slick-list .slick-track, .slick-slider .slick-list .slick-track .slick-slide > div {
+  height: 100%;
+}
+
+.slick-arrow {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  content: "" !important;
+}
+
 /*^ Nav */
 nav.active {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -78,4 +94,82 @@ nav.active {
 .bg-wave {
   background-image: url("Assets/images/wave.png");
   background-repeat: no-repeat;
+}
+
+/*^ Promo */
+.promo-slider > .slick-list > .slick-track {
+  padding: 15px 0;
+}
+
+.promo-slider > .slick-list > .slick-track .slick-slide > div {
+  padding: 0 15px;
+}
+
+.promo-slider > .slick-arrow {
+  opacity: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  z-index: 2;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease;
+}
+
+.promo-slider > .slick-arrow.slick-prev:hover,
+.promo-slider > .slick-arrow.slick-next:hover {
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  transition: all 0.2s ease;
+}
+
+.promo-slider > .slick-arrow.slick-prev {
+  left: -2%;
+}
+
+.promo-slider > .slick-arrow.slick-next {
+  right: -2%;
+}
+
+.promo-slider:hover .slick-arrow {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.promo-dots {
+  padding: 0 0 !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center !important;
+  bottom: -10% !important;
+}
+
+.promo-dots > li {
+  width: 65px !important;
+  height: 6px !important;
+}
+
+.promo-dots > li > a {
+  width: 100%;
+  height: 100%;
+}
+
+.promo-dots > li,
+.promo-dots > li > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promo-slick-dots {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.slick-active a .promo-slick-dots {
+  background-color: #333;
+  border-color: #333;
 }

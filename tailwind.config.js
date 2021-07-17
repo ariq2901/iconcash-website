@@ -8,9 +8,12 @@ module.exports = {
       },
       colors: {
         core: "#F8CC14",
-        grayText: "#333333"
+        grayText: "#333333",
+        grayText2: "#4F4F4F",
+        graySection: "#FAFAFA"
       },
       spacing:{
+        "16.1": '70px',
         "16.5": '88.5px',
         "17": '89px'
       },

@@ -1,6 +1,8 @@
 import React, { Fragment, useEffect } from "react";
 import Features from "./Features";
 import Hero from "./Hero";
+import Merchant from "./Merchant";
+import Promo from "./Promo";
 
 const Home = () => {
 
@@ -12,6 +14,8 @@ const Home = () => {
     <Fragment>
       <Hero />
       <Features />
+      <Promo />
+      <Merchant />
     </Fragment>
   );
 }

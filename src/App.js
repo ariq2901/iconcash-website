@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
