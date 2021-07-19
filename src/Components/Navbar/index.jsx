@@ -47,7 +47,7 @@ const Navbar = () => {
             <Link>Artikel</Link>
           </div>
         </div>
-        <div className="flex justify-center items-center font-semibold bg-core w-36 h-10 rounded-md shadow-md">DOWNLOAD</div>
+        <div className="flex justify-center items-center font-semibold cursor-pointer bg-core w-36 h-10 rounded-md shadow-md">DOWNLOAD</div>
       </nav>
     </Fragment>
   );

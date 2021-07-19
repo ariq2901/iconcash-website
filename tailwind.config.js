@@ -19,7 +19,8 @@ module.exports = {
       },
       backgroundImage: {
         "feature-card": "linear-gradient(355.86deg, #F9C810 -107.44%, rgba(255, 255, 255, 0) 70.96%)",
-        "footer-feature-card": "linear-gradient(180deg, #F8CC14 0%, #FFB800 100%)"
+        "footer-feature-card": "linear-gradient(180deg, #F8CC14 0%, #FFB800 100%)",
+        "footer": "linear-gradient(270.19deg, #333333 -35.91%, #333333 110.27%)"
       }
     },
   },

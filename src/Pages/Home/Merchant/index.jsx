@@ -8,9 +8,9 @@ import AlfamartLogo from "Assets/images/alfamart.png";
 const Merchant = () => {
   return (
     <Fragment>
-      <section className="w-full pt-16.1 font-poppins flex flex-col items-center">
+      <section className="w-full pt-16.1 pb-28 font-poppins flex flex-col items-center lg:px-40">
         <h1 className="text-grayText text-center text-4xl font-bold mb-24">Merchant Kami</h1>
-        <div className="w-full grid grid-cols-3 lg:grid-cols-5 place-items-center lg:px-17 mb-32">
+        <div className="w-full grid grid-cols-3 lg:grid-cols-5 place-items-center mb-32">
           <div className="w-20">
             <img src={PlnLogo} className="w-full" alt="" />
           </div>
